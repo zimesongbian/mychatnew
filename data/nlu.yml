@@ -1,0 +1,234 @@
+version: "3.0"
+nlu:
+
+  - intent: greet
+    examples: |
+      - cc
+      - Bonjour
+      - Salut
+      - Coucou
+      - Bonsoir
+      - Hello
+      - Hi
+  - intent: goodbye
+    examples: |
+      - Au revoir
+      - À bientôt
+      - Bonne journée
+      - À la prochaine
+      - Bye
+      - Ciao
+
+  - intent: demander_definition_contrat
+    examples: |
+      - Que dit le Code du Travail sur la définition d'un contrat de travail ?
+      - Comment le Code définit-il un contrat de travail ?
+      - Quelle est la définition légale d'un contrat de travail ?
+  
+  - intent: demander_duree_maximale_cdd
+    examples: |
+      - Quelle est la durée maximale d’un contrat à durée déterminée ?
+      - Combien de temps un CDD peut-il durer ?
+      - Quelle est la limite de durée pour un CDD ?
+
+  - intent: demander_droits_travailleur_etranger
+    examples: |
+      - Quels sont les droits d'un travailleur étranger ?
+      - Que dit le Code du Travail sur les travailleurs étrangers ?
+      - Quelles sont les dispositions pour les travailleurs étrangers ?
+
+  - intent: demander_definition_travailleur
+    examples: |
+      - Qu'est-ce qu'un travailleur selon le Code du Travail ?
+      - Quelle est la définition d'un travailleur ?
+      - Comment le Code définit-il un travailleur ?
+
+  - intent: demander_travail_force
+    examples: |
+      - Que dit la loi sur le travail forcé ?
+      - Quelle est la définition du travail forcé ?
+      - Quelles sont les dispositions concernant le travail forcé ?
+
+  - intent: demander_motifs_licenciement
+    examples: |
+      - Quels sont les motifs légaux de licenciement ?
+      - Pour quelles raisons un salarié peut-il être licencié ?
+      - Quels sont les motifs de licenciement prévus par la loi ?
+
+  - intent: demander_definition_apprenti
+    examples: |
+      - Quelle est la définition d'un apprenti ?
+      - Comment est défini un apprenti dans le Code du Travail ?
+      - Que dit la loi sur les apprentis ?
+
+  - intent: demander_regles_periode_essai
+    examples: |
+      - Que prévoit le Code pour la période d'essai ?
+      - Quelles sont les règles concernant la période d'essai ?
+      - Comment la période d'essai est-elle réglementée ?
+
+  - intent: demander_obligations_employeur
+    examples: |
+      - Quelles obligations un employeur a-t-il envers ses employés ?
+      - Quels sont les devoirs des employeurs envers les travailleurs ?
+      - Que dit le Code du Travail sur les obligations des employeurs ?
+
+  - intent: demander_rupture_contrat
+    examples: |
+      - Comment un contrat de travail peut-il être rompu ?
+      - Quelles sont les règles pour rompre un contrat de travail ?
+      - Que dit la loi sur la rupture de contrat ?
+
+  - intent: demander_droits_maladie_travailleur
+    examples: |
+      - Quels sont les droits des travailleurs en cas de maladie ?
+      - Que dit le Code du Travail sur la maladie des travailleurs ?
+      - Quels sont les droits en cas de maladie professionnelle ?
+
+  - intent: demander_procedure_licenciement
+    examples: |
+      - Quelle est la procédure pour licencier un salarié ?
+      - Comment se passe un licenciement selon la loi ?
+      - Quelles sont les étapes pour licencier un travailleur ?
+
+  - intent: demander_regles_conges_payes
+    examples: |
+      - Quelles sont les règles concernant les congés payés ?
+      - Comment sont réglementés les congés payés ?
+      - Que dit le Code du Travail sur les congés payés ?
+
+  - intent: demander_obligations_sante_securite
+    examples: |
+      - Quelles sont les obligations en matière de santé et sécurité au travail ?
+      - Que dit le Code sur la sécurité au travail ?
+      - Comment est réglementée la santé des travailleurs ?
+
+  - intent: demander_contestation_licenciement
+    examples: |
+      - Comment un travailleur peut-il contester un licenciement ?
+      - Quels sont les recours en cas de licenciement abusif ?
+      - Comment contester un licenciement selon le Code du Travail ?
+
+  - intent: demander_remuneration_heures_supplementaires
+    examples: |
+      - Que dit la loi sur la rémunération des heures supplémentaires ?
+      - Comment sont payées les heures supplémentaires ?
+      - Quelle est la réglementation sur les heures supplémentaires ?
+
+  - intent: demander_droits_travailleur_saisonnier
+    examples: |
+      - Quels sont les droits des travailleurs saisonniers ?
+      - Comment la loi protège-t-elle les travailleurs saisonniers ?
+      - Quels sont les avantages des travailleurs saisonniers ?
+
+  - intent: demander_regles_travail_mineurs
+    examples: |
+      - Que prévoit la loi sur le travail des mineurs ?
+      - Quelles sont les conditions pour embaucher un mineur ?
+      - Comment est réglementé le travail des mineurs ?
+
+  - intent: demander_conditions_apprentissage
+    examples: |
+      - Quelles sont les conditions pour devenir apprenti ?
+      - Comment fonctionne un contrat d'apprentissage ?
+      - Que prévoit le Code du Travail sur l'apprentissage ?
+
+  - intent: demander_suspension_contrat
+    examples: |
+      - Comment fonctionne la suspension d'un contrat de travail ?
+      - Quelles sont les règles pour suspendre un contrat ?
+      - Que dit le Code du Travail sur la suspension des contrats ?
+
+  - intent: demander_avantages_sociaux
+    examples: |
+      - Quels sont les avantages sociaux pour les travailleurs ?
+      - Quels sont les droits des salariés aux avantages sociaux ?
+      - Comment un travailleur peut-il bénéficier des avantages sociaux ?
+
+  - intent: demander_formation_syndicat
+    examples: |
+      - Comment les syndicats sont-ils formés selon le Code du Travail ?
+      - Quelles sont les conditions pour créer un syndicat ?
+      - Comment un syndicat peut-il être reconnu légalement ?
+
+  - intent: demander_regles_travail_nuit
+    examples: |
+      - Quelles sont les règles concernant le travail de nuit ?
+      - Que dit la loi sur les horaires de nuit ?
+      - Comment est réglementé le travail de nuit ?
+
+  - intent: demander_duree_preavis
+    examples: |
+      - Quelle est la durée minimale du préavis en cas de licenciement ?
+      - Combien de temps doit durer le préavis de licenciement ?
+      - Quelle est la période de préavis légale pour les licenciements ?
+
+  - intent: demander_criteres_discrimination
+    examples: |
+      - Quels sont les critères de discrimination interdits au travail ?
+      - Que dit la loi sur les discriminations au travail ?
+      - Comment le Code du Travail lutte contre la discrimination ?
+
+  - intent: demander_resolution_conflit_travail
+    examples: |
+      - Comment les conflits de travail individuels sont-ils résolus ?
+      - Que faire en cas de conflit de travail ?
+      - Quelles sont les procédures de résolution des conflits individuels ?
+
+  - intent: demander_sanctions_non_respect
+    examples: |
+      - Quelles sont les sanctions en cas de non-respect du Code du Travail ?
+      - Que risque-t-on si le Code du Travail n'est pas respecté ?
+      - Quelles pénalités sont prévues pour les infractions au Code du Travail ?
+
+  - intent: demander_horaires_travail
+    examples: |
+      - Que dit le Code sur les horaires de travail ?
+      - Comment sont fixés les horaires de travail selon la loi ?
+      - Quelles sont les réglementations sur les heures de travail ?
+
+  - intent: demander_droits_accident_travail
+    examples: |
+      - Quels sont les droits des employés en cas d'accident de travail ?
+      - Comment la loi protège-t-elle les travailleurs victimes d'accidents ?
+      - Que prévoit le Code du Travail pour les accidents du travail ?
+
+  - intent: demander_regles_conclusion_contrat
+    examples: |
+      - Quelles règles doivent être suivies pour la conclusion d’un contrat de travail ?
+      - Que dit la loi sur la signature des contrats ?
+      - Quelles conditions sont nécessaires pour conclure un contrat de travail ?
+
+  - intent: demander_droits_licenciement_economique
+    examples: |
+      - Que prévoit la loi en cas de licenciement économique ?
+      - Quels sont les droits des travailleurs licenciés pour raisons économiques ?
+      - Comment un licenciement économique doit-il être traité selon la loi ?
+
+  - intent: demander_types_contrats_travail
+    examples: |
+      - Quels sont les types de contrats de travail autorisés ?
+      - Combien de types de contrats de travail existent selon le Code ?
+      - Quels sont les contrats reconnus par le Code du Travail ?
+
+  - intent: demander_procedure_resiliation_cdd
+    examples: |
+      - Quelles sont les procédures pour la résiliation d’un CDD ?
+      - Comment rompre un CDD légalement ?
+      - Que dit la loi sur la fin anticipée d’un contrat à durée déterminée ?
+
+  - intent: demander_calcul_indemnite_licenciement
+    examples: |
+      - Comment est calculée l'indemnité de licenciement ?
+      - Quelles sont les règles pour calculer une indemnité de licenciement ?
+      - Comment déterminer l'indemnité en cas de licenciement ?
+
+  - intent: demander_droits_greve
+    examples: |
+      - Quels sont les droits des travailleurs en cas de grève ?
+      - Comment le Code du Travail réglemente-t-il le droit de grève ?
+      - Quels sont les droits et devoirs en cas de grève ?
+
+  - intent: demander_conditions_promotion
+    examples: |
+      - Quelles sont les conditions pour obtenir une promotion ?

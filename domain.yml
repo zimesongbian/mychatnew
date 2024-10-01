@@ -1,0 +1,303 @@
+version: "3.0"
+
+intents:
+  - demander_definition_contrat
+  - demander_duree_maximale_cdd
+  - demander_droits_travailleur_etranger
+  - demander_definition_travailleur
+  - demander_travail_force
+  - demander_motifs_licenciement
+  - demander_definition_apprenti
+  - demander_regles_periode_essai
+  - demander_obligations_employeur
+  - demander_rupture_contrat
+  - demander_droits_maladie_travailleur
+  - demander_procedure_licenciement
+  - demander_regles_conges_payes
+  - demander_obligations_sante_securite
+  - demander_contestation_licenciement
+  - demander_remuneration_heures_supplementaires
+  - demander_droits_travailleur_saisonnier
+  - demander_regles_travail_mineurs
+  - demander_conditions_apprentissage
+  - demander_suspension_contrat
+  - demander_avantages_sociaux
+  - demander_formation_syndicat
+  - demander_regles_travail_nuit
+  - demander_duree_preavis
+  - demander_criteres_discrimination
+  - demander_resolution_conflit_travail
+  - demander_sanctions_non_respect
+  - demander_horaires_travail
+  - demander_droits_accident_travail
+  - demander_regles_conclusion_contrat
+  - demander_droits_licenciement_economique
+  - demander_types_contrats_travail
+  - demander_procedure_resiliation_cdd
+  - demander_calcul_indemnite_licenciement
+  - demander_droits_greve
+  - demander_conditions_promotion
+  - demander_droits_femmes_enceintes
+  - demander_regles_travail_temps_partiel
+  - demander_regles_travail_personnes_handicapees
+  - demander_resiliation_contrat_apprentissage
+  - demander_mise_a_pied_economique
+  - demander_versement_salaire
+  - demander_conditions_fermeture_temporaire
+  - demander_droits_suspension_contrat
+  - demander_recours_licenciement_abusif
+  - demander_licenciement_faute_lourde
+  - demander_regles_renouvellement_cdd
+  - greet
+  - goodbye
+
+entities:
+  - contrat
+  - travailleur
+  - employeur
+  - cdd
+  - maladie
+  - licenciement
+  - heures_supplementaires
+  - apprenti
+  - periode_essai
+  - securite
+  - sante
+  - preavis
+  - discrimination
+  - conges
+  - accident_travail
+  - syndicat
+  - travail_nuit
+  - femme_enceinte
+  - promotion
+  - temps_partiel
+  - handicap
+  - remuneration
+  - greve
+  - avantages_sociaux
+
+slots:
+  contrat:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  travailleur:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  employeur:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  cdd:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  maladie:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  licenciement:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  heures_supplementaires:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  apprenti:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  periode_essai:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  securite:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  sante:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  preavis:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  discrimination:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  conges:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  accident_travail:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  syndicat:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  travail_nuit:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  femme_enceinte:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  promotion:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  temps_partiel:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  handicap:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  remuneration:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  greve:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+  avantages_sociaux:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+
+responses:
+  utter_greet:
+    - text: "Salut! Que puis-je faire pour vous?"
+  utter_goodbye:
+    - text: "À bientôt! N'hésitez pas à revenir si vous avez d'autres questions."
+  utter_definition_contrat:
+    - text: "Un contrat de travail est un accord entre un employeur et un travailleur stipulant les termes et conditions de travail."
+  utter_duree_maximale_cdd:
+    - text: "La durée maximale d'un CDD dépend de la nature du poste et de la législation en vigueur."
+  utter_droits_travailleur_etranger:
+    - text: "Les travailleurs étrangers bénéficient des mêmes droits que les travailleurs locaux, sous réserve de leur permis de travail."
+  utter_definition_travailleur:
+    - text: "Un travailleur est toute personne employée par une entreprise pour effectuer des tâches spécifiques."
+  utter_travail_force:
+    - text: "Le travail forcé est interdit par la loi et désigne toute forme de travail imposé contre la volonté d'une personne."
+  utter_motifs_licenciement:
+    - text: "Les motifs légaux de licenciement incluent faute grave, restructuration de l'entreprise, ou inaptitude au poste."
+  utter_definition_apprenti:
+    - text: "Un apprenti est un jeune travailleur engagé pour apprendre un métier en alternant travail et formation."
+  utter_regles_periode_essai:
+    - text: "La période d'essai est une période pendant laquelle l'employeur et le salarié peuvent mettre fin au contrat sans motif."
+  utter_obligations_employeur:
+    - text: "Les obligations de l'employeur incluent la sécurité, le respect des horaires et le paiement des salaires."
+  utter_rupture_contrat:
+    - text: "La rupture d'un contrat de travail peut se faire par démission, licenciement ou rupture conventionnelle."
+  utter_droits_maladie_travailleur:
+    - text: "En cas de maladie, le travailleur a droit à des congés payés et parfois à des indemnités journalières."
+  utter_procedure_licenciement:
+    - text: "La procédure de licenciement doit respecter certaines étapes : convocation, entretien préalable, et notification écrite."
+  utter_regles_conges_payes:
+    - text: "Les salariés ont droit à des congés payés annuels calculés en fonction du temps de travail."
+  utter_obligations_sante_securite:
+    - text: "L'employeur doit garantir la sécurité et la santé de ses travailleurs, en fournissant des équipements de protection."
+  utter_contestation_licenciement:
+    - text: "Le salarié peut contester un licenciement devant le conseil des prud'hommes s'il estime qu'il est injustifié."
+  utter_remuneration_heures_supplementaires:
+    - text: "Les heures supplémentaires doivent être rémunérées avec une majoration ou compensées par un repos équivalent."
+  utter_droits_travailleur_saisonnier:
+    - text: "Le travailleur saisonnier a droit aux mêmes protections que les autres travailleurs, avec des spécificités selon la saison."
+  utter_regles_travail_mineurs:
+    - text: "Le travail des mineurs est encadré par la loi, notamment en termes d'horaires et de conditions de travail."
+  utter_conditions_apprentissage:
+    - text: "Les conditions pour devenir apprenti incluent la signature d'un contrat d'apprentissage et une formation en alternance."
+  utter_suspension_contrat:
+    - text: "Un contrat de travail peut être suspendu pour diverses raisons, telles que la maladie, la maternité ou un congé sabbatique."
+  utter_avantages_sociaux:
+    - text: "Les avantages sociaux incluent des primes, assurances, et autres bénéfices."
+  utter_formation_syndicat:
+    - text: "La formation syndicale permet aux salariés de se regrouper pour défendre leurs intérêts."
+  utter_regles_travail_nuit:
+    - text: "Le travail de nuit est soumis à des règles spécifiques concernant les horaires et la rémunération."
+  utter_duree_preavis:
+    - text: "La durée du préavis dépend du type de contrat et de l'ancienneté du salarié."
+  utter_criteres_discrimination:
+    - text: "La discrimination peut être fondée sur des critères tels que le genre, l'âge, ou la religion."
+  utter_resolution_conflit_travail:
+    - text: "Les conflits individuels de travail peuvent être résolus par la médiation ou devant les prud'hommes."
+  utter_sanctions_non_respect:
+    - text: "Le non-respect du Code du Travail peut entraîner des sanctions disciplinaires et pénales."
+  utter_horaires_travail:
+    - text: "Les horaires de travail doivent respecter les conventions collectives et le Code du Travail."
+  utter_droits_accident_travail:
+    - text: "En cas d'accident de travail, le salarié a droit à une indemnisation et une protection spécifique."
+  utter_regles_conclusion_contrat:
+    - text: "La conclusion d'un contrat de travail doit respecter certaines règles légales et conventionnelles."
+  utter_droits_licenciement_economique:
+    - text: "En cas de licenciement économique, le salarié peut avoir droit à une indemnité et un accompagnement."
+  utter_types_contrats_travail:
+    - text: "Il existe plusieurs types de contrats de travail, tels que le CDI, CDD, et le contrat d'apprentissage."
+  utter_procedure_resiliation_cdd:
+    - text: "La résiliation anticipée d’un CDD est possible sous certaines conditions, telles que la faute grave."
+  utter_calcul_indemnite_licenciement:
+    - text: "Le calcul de l'indemnité de licenciement dépend de l'ancienneté et de la rémunération du salarié."
+  utter_droits_greve:
+    - text: "Les salariés ont le droit de faire grève pour défendre leurs revendications professionnelles."
+  utter_conditions_promotion:
+    - text: "Les conditions de promotion varient selon l'ancienneté, les compétences, et les politiques de l'entreprise."
+  utter_droits_femmes_enceintes:
+    - text: "Les femmes enceintes bénéficient de droits spécifiques, tels que le congé maternité et la protection contre le licenciement."
+  utter_regles_travail_temps_partiel:
+    - text: "Le travail à temps partiel doit respecter un certain nombre d'heures et des conditions de rémunération."
+  utter_regles_travail_personnes_handicapees:
+    - text: "Les travailleurs handicapés bénéficient de mesures spécifiques d'insertion et de protection au travail."
+  utter_resiliation_contrat_apprentissage:
+    - text: "La résiliation d'un contrat d'apprentissage peut se faire d'un commun accord ou pour des raisons justifiées."
+  utter_mise_a_pied_economique:
+    - text: "La mise à pied économique suspend temporairement le contrat de travail pour des raisons économiques."
+  utter_versement_salaire:
+    - text: "Le versement des salaires doit respecter la périodicité convenue et être effectué en temps et en heure."
+  utter_conditions_fermeture_temporaire:
+    - text: "La fermeture temporaire de l'entreprise peut donner droit à une compensation pour les salariés."
+  utter_droits_suspension_contrat:
+    - text: "Lors de la suspension du contrat, le salarié peut avoir droit à une indemnisation ou un maintien des avantages."
+  utter_recours_licenciement_abusif:
+    - text: "En cas de licenciement abusif, le salarié peut contester la décision et demander une indemnisation."
+  utter_licenciement_faute_lourde:
+    - text: "Le licenciement pour faute lourde implique une faute grave commise intentionnellement par le salarié."
+  utter_regles_renouvellement_cdd:
+    - text: "Le renouvellement d'un CDD est soumis à des règles précises en termes de durée et de nombre de renouvellements."
+  utter_regles_ren:
+    - text: "Voici les règles du renouvellement de contrat."
+    

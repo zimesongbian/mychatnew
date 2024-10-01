@@ -1,0 +1,235 @@
+version: "3.0"
+stories:
+  - story: Répondre à la définition de contrat
+    steps:
+      - intent: demander_definition_contrat
+      - action: utter_definition_contrat
+
+  - story: Répondre à la durée maximale CDD
+    steps:
+      - intent: demander_duree_maximale_cdd
+      - action: utter_duree_maximale_cdd
+
+  - story: Répondre aux droits du travailleur étranger
+    steps:
+      - intent: demander_droits_travailleur_etranger
+      - action: utter_droits_travailleur_etranger
+
+  - story: Répondre à la définition de travailleur
+    steps:
+      - intent: demander_definition_travailleur
+      - action: utter_definition_travailleur
+
+  - story: Répondre à la question sur le travail forcé
+    steps:
+      - intent: demander_travail_force
+      - action: utter_travail_force
+
+  - story: Répondre aux motifs de licenciement
+    steps:
+      - intent: demander_motifs_licenciement
+      - action: utter_motifs_licenciement
+
+  - story: Répondre à la définition d'apprenti
+    steps:
+      - intent: demander_definition_apprenti
+      - action: utter_definition_apprenti
+
+  - story: Répondre aux règles de la période d'essai
+    steps:
+      - intent: demander_regles_periode_essai
+      - action: utter_regles_periode_essai
+
+  - story: Répondre aux obligations de l'employeur
+    steps:
+      - intent: demander_obligations_employeur
+      - action: utter_obligations_employeur
+
+  - story: Répondre à la rupture de contrat
+    steps:
+      - intent: demander_rupture_contrat
+      - action: utter_rupture_contrat
+
+  - story: Répondre aux droits des travailleurs en cas de maladie
+    steps:
+      - intent: demander_droits_maladie_travailleur
+      - action: utter_droits_maladie_travailleur
+
+  - story: Répondre à la procédure de licenciement
+    steps:
+      - intent: demander_procedure_licenciement
+      - action: utter_procedure_licenciement
+
+  - story: Répondre aux règles des congés payés
+    steps:
+      - intent: demander_regles_conges_payes
+      - action: utter_regles_conges_payes
+
+  - story: Répondre aux obligations en matière de santé et sécurité
+    steps:
+      - intent: demander_obligations_sante_securite
+      - action: utter_obligations_sante_securite
+
+  - story: Répondre à la contestation de licenciement
+    steps:
+      - intent: demander_contestation_licenciement
+      - action: utter_contestation_licenciement
+
+  - story: Répondre à la rémunération des heures supplémentaires
+    steps:
+      - intent: demander_remuneration_heures_supplementaires
+      - action: utter_remuneration_heures_supplementaires
+
+  - story: Répondre aux droits des travailleurs saisonniers
+    steps:
+      - intent: demander_droits_travailleur_saisonnier
+      - action: utter_droits_travailleur_saisonnier
+
+  - story: Répondre aux règles du travail des mineurs
+    steps:
+      - intent: demander_regles_travail_mineurs
+      - action: utter_regles_travail_mineurs
+
+  - story: Répondre aux conditions d'apprentissage
+    steps:
+      - intent: demander_conditions_apprentissage
+      - action: utter_conditions_apprentissage
+
+  - story: Répondre à la suspension de contrat
+    steps:
+      - intent: demander_suspension_contrat
+      - action: utter_suspension_contrat
+
+  - story: Répondre aux avantages sociaux des travailleurs
+    steps:
+      - intent: demander_avantages_sociaux
+      - action: utter_avantages_sociaux
+
+  - story: Répondre à la formation des syndicats
+    steps:
+      - intent: demander_formation_syndicat
+      - action: utter_formation_syndicat
+
+  - story: Répondre aux règles du travail de nuit
+    steps:
+      - intent: demander_regles_travail_nuit
+      - action: utter_regles_travail_nuit
+
+  - story: Répondre à la durée du préavis
+    steps:
+      - intent: demander_duree_preavis
+      - action: utter_duree_preavis
+
+  - story: Répondre aux critères de discrimination
+    steps:
+      - intent: demander_criteres_discrimination
+      - action: utter_criteres_discrimination
+
+  - story: Répondre à la résolution de conflits individuels de travail
+    steps:
+      - intent: demander_resolution_conflit_travail
+      - action: utter_resolution_conflit_travail
+
+  - story: Répondre aux sanctions pour non-respect du Code du Travail
+    steps:
+      - intent: demander_sanctions_non_respect
+      - action: utter_sanctions_non_respect
+
+  - story: Répondre aux horaires de travail
+    steps:
+      - intent: demander_horaires_travail
+      - action: utter_horaires_travail
+
+  - story: Répondre aux droits en cas d'accident de travail
+    steps:
+      - intent: demander_droits_accident_travail
+      - action: utter_droits_accident_travail
+
+  - story: Répondre aux règles de conclusion de contrat
+    steps:
+      - intent: demander_regles_conclusion_contrat
+      - action: utter_regles_conclusion_contrat
+
+  - story: Répondre aux droits en cas de licenciement économique
+    steps:
+      - intent: demander_droits_licenciement_economique
+      - action: utter_droits_licenciement_economique
+
+  - story: Répondre aux types de contrats de travail
+    steps:
+      - intent: demander_types_contrats_travail
+      - action: utter_types_contrats_travail
+
+  - story: Répondre à la procédure de résiliation d’un CDD
+    steps:
+      - intent: demander_procedure_resiliation_cdd
+      - action: utter_procedure_resiliation_cdd
+
+  - story: Répondre au calcul de l'indemnité de licenciement
+    steps:
+      - intent: demander_calcul_indemnite_licenciement
+      - action: utter_calcul_indemnite_licenciement
+
+  - story: Répondre aux droits en cas de grève
+    steps:
+      - intent: demander_droits_greve
+      - action: utter_droits_greve
+
+  - story: Répondre aux conditions pour une promotion
+    steps:
+      - intent: demander_conditions_promotion
+      - action: utter_conditions_promotion
+
+  - story: Répondre aux droits des femmes enceintes
+    steps:
+      - intent: demander_droits_femmes_enceintes
+      - action: utter_droits_femmes_enceintes
+
+  - story: Répondre aux règles sur les travailleurs à temps partiel
+    steps:
+      - intent: demander_regles_travail_temps_partiel
+      - action: utter_regles_travail_temps_partiel
+
+  - story: Répondre aux règles sur les travailleurs handicapés
+    steps:
+      - intent: demander_regles_travail_personnes_handicapees
+      - action: utter_regles_travail_personnes_handicapees
+
+  - story: Répondre à la rupture d’un contrat d'apprentissage
+    steps:
+      - intent: demander_resiliation_contrat_apprentissage
+      - action: utter_resiliation_contrat_apprentissage
+
+  - story: Répondre à la mise à pied économique
+    steps:
+      - intent: demander_mise_a_pied_economique
+      - action: utter_mise_a_pied_economique
+
+  - story: Répondre au versement des salaires
+    steps:
+      - intent: demander_versement_salaire
+      - action: utter_versement_salaire
+
+  - story: Répondre aux conditions de travail en cas de fermeture temporaire
+    steps:
+      - intent: demander_conditions_fermeture_temporaire
+      - action: utter_conditions_fermeture_temporaire
+
+  - story: Répondre aux droits en période de suspension de contrat
+    steps:
+      - intent: demander_droits_suspension_contrat
+      - action: utter_droits_suspension_contrat
+
+  - story: Répondre au recours en cas de licenciement abusif
+    steps:
+      - intent: demander_recours_licenciement_abusif
+      - action: utter_recours_licenciement_abusif
+
+  - story: Répondre au licenciement pour faute lourde
+    steps:
+      - intent: demander_licenciement_faute_lourde
+      - action: utter_licenciement_faute_lourde
+
+  - story: Répondre aux règles de renouvellement de CDD
+    steps:
+      - intent: demander_regles_renou
